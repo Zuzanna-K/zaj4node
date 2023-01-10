@@ -1,0 +1,86 @@
+main
+{
+    display: flex;
+}
+
+div
+{
+    width: 50%;
+    height: 800px;
+    background-color: #f3e5c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div div
+{
+    margin: 15px;
+}
+
+/*#buttons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}*/
+
+
+#buttons div #poziom1, #buttons div  #poziom2, #buttons div  #poziom3, #buttons div #poziom4, #buttons div #poziom5, #buttons div #poziomtytul
+{
+    justify-content: center;
+}
+
+
+#buttons div div, #buttons #poziomtytul
+{
+    justify-content: left;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    text-align: left;
+}
+
+
+
+#buttons div
+{
+    display: flex;
+    flex-direction: row ;
+    height: 50px;
+    margin: 6px;
+    width: 90%;
+   
+}
+
+#buttons button, #buttons #kms
+{
+    margin: 10px;
+    height: 30px;
+    width: 160px;
+    border-radius: 20%;
+}
+
+#buttons button:hover
+{
+    transform: scale(1.05);
+}
+
+img 
+{
+    transition: transform .5s;
+    margin-top: 100px;
+}
+
+img:hover
+{
+    transform: scale(1.1);
+}
+
+#suma
+{
+    margin-bottom: 200px;
+}
